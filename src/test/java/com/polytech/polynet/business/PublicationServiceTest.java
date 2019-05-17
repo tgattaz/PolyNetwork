@@ -1,6 +1,6 @@
 package com.polytech.polynet.business;
 
-import com.polytech.polynet.AppConfig;
+import com.polytech.polynet.config.AppConfig;
 import com.polytech.polynet.repository.StoryRepository;
 import org.junit.Assert;
 import org.junit.Test;

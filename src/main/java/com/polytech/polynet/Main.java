@@ -1,6 +1,7 @@
 package com.polytech.polynet;
 
 import com.polytech.polynet.business.Story;
+import com.polytech.polynet.config.AppConfig;
 import com.polytech.polynet.repository.StoryRepository;
 import org.springframework.boot.SpringApplication;
 import org.springframework.context.ApplicationContext;

@@ -25,11 +25,6 @@ public class AppConfig {
         return new JpaLoginRepository();
     }
 
-    //@Bean
-    //StoryRepository storyRepository() {
-    //    return new JdbcStoryRepository(datasource());
-    //}
-
     @Bean
     DataSource datasource() {
         MysqlDataSource dataSource = new MysqlDataSource();

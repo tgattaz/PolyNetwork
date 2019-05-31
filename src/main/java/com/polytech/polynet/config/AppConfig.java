@@ -33,10 +33,10 @@ public class AppConfig {
     @Bean
     DataSource datasource() {
         MysqlDataSource dataSource = new MysqlDataSource();
-        dataSource.setUrl("jdbc:mysql://localhost/polynet");
-        dataSource.setUser("root");
-        dataSource.setPassword("root");
-        dataSource.setDatabaseName("polyNet");
+        dataSource.setURL("jdbc:mysql://mysql-tgattaz.alwaysdata.net:3306/tgattaz_polynet");
+        dataSource.setUser("tgattaz_parano");
+        dataSource.setPassword("parano13014");
+        dataSource.setDatabaseName("tgattaz_polynet");
         return dataSource;
     }
 

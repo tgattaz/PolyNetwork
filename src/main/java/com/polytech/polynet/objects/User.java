@@ -1,4 +1,4 @@
-package com.polytech.polynet.business;
+package com.polytech.polynet.objects;
 
 
 import javax.persistence.*;

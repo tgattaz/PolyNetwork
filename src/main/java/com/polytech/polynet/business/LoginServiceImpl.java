@@ -1,5 +1,6 @@
 package com.polytech.polynet.business;
 
+import com.polytech.polynet.objects.User;
 import com.polytech.polynet.repository.LoginRepository;
 
 public class LoginServiceImpl implements LoginService {
@@ -13,7 +14,8 @@ public class LoginServiceImpl implements LoginService {
         loginRepository.register(user1);
     }
 
-    public void login(User user) {
-        loginRepository.login(user);
+    public void register_Authority(Authority authority) {
+        loginRepository.save_Authority(authority);
     }
+
 }

@@ -2,7 +2,6 @@ package com.polytech.polynet.config;
 
 import com.mysql.cj.jdbc.MysqlDataSource;
 import com.polytech.polynet.business.*;
-//import com.polytech.polynet.repository.JdbcStoryRepository;
 import com.polytech.polynet.repository.JpaLoginRepository;
 import com.polytech.polynet.repository.JpaStoryRepository;
 import com.polytech.polynet.repository.LoginRepository;
@@ -36,7 +35,7 @@ public class AppConfig {
     }
 
     @Bean
-    FeedService feedService() { return new FeedServiceImpl((storyRepository())); }
+    ToDoService toDoService() { return new ToDoServiceImpl((storyRepository())); }
 
     @Bean
     PublicationService publicationService(){

@@ -2,7 +2,7 @@ package com.polytech.polynet.repository;
 
 
 import com.polytech.polynet.business.Comment;
-import com.polytech.polynet.business.Story;
+import com.polytech.polynet.objects.Story;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -26,9 +26,9 @@ public class JpaStoryRepository implements StoryRepository {
         EntityManager.persist(c);
     }
 
-    public String requeteFindStory = "SELECT s from Story s";
+    private String requeteFindStory = "SELECT s from Story s";
 
-    public List<Story> findAll() {
+    public List findAll() {
         Query query = EntityManager.createQuery(requeteFindStory);
         return query.getResultList();
     }

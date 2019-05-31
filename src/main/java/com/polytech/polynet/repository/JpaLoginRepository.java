@@ -1,7 +1,7 @@
 package com.polytech.polynet.repository;
 
-import com.polytech.polynet.business.User;
-import com.polytech.polynet.repository.LoginRepository;
+import com.polytech.polynet.business.Authority;
+import com.polytech.polynet.objects.User;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -18,7 +18,8 @@ public class JpaLoginRepository implements LoginRepository {
 
     }
 
-    public void login(User user) {
-        //??????
+    public void save_Authority(Authority authority) {
+        EntityManager.persist(authority);
     }
+
 }

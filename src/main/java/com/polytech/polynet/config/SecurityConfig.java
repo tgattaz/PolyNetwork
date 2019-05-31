@@ -24,13 +24,16 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
+        //super.configure(http);
         http.authorizeRequests()
-                .mvcMatchers("/","/register.html","/register").permitAll()
+                .mvcMatchers("/").permitAll()
+                .mvcMatchers("/register.html").permitAll()
                 .anyRequest().authenticated()
+                .mvcMatchers("/espace.html").permitAll()
+                .and()
+                .formLogin()
                 .and()
                 .csrf().disable();
-        super.configure(http);
-
 
     }
 

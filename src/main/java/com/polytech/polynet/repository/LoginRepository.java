@@ -5,4 +5,6 @@ import com.polytech.polynet.business.User;
 public interface LoginRepository {
 
     void register(User user);
+
+    void login(User user);
 }

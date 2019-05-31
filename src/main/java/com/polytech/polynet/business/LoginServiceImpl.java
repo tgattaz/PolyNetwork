@@ -12,4 +12,8 @@ public class LoginServiceImpl implements LoginService {
     public void register(User user1) {
         loginRepository.register(user1);
     }
+
+    public void login(User user) {
+        loginRepository.login(user);
+    }
 }

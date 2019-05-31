@@ -18,5 +18,9 @@ public class LoginController {
         loginService.register(user);
     }
 
+    @PostMapping("/login")
+    public void login(@RequestBody User user) {
+        loginService.login(user);
+    }
 
 }

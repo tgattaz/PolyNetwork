@@ -17,4 +17,8 @@ public class JpaLoginRepository implements LoginRepository {
         EntityManager.persist(u);
 
     }
+
+    public void login(User user) {
+        //????
+    }
 }

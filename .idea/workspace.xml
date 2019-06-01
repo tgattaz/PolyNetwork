@@ -4,17 +4,7 @@
     <option name="showLibraryBeans" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52b5482d-9d9e-4a51-a223-b89ec128686a" name="Default Changelist" comment="Ajout de trucs pour register (p'tre ça marche pas)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/polytech/polynet/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polytech/polynet/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/espace.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/espace.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polytech/polynet/api/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polytech/polynet/api/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polytech/polynet/business/LoginService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polytech/polynet/business/LoginService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polytech/polynet/business/LoginServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polytech/polynet/business/LoginServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polytech/polynet/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polytech/polynet/config/AppConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polytech/polynet/repository/JpaLoginRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polytech/polynet/repository/JpaLoginRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polytech/polynet/repository/LoginRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polytech/polynet/repository/LoginRepository.class" afterDir="false" />
-    </list>
+    <list default="true" id="52b5482d-9d9e-4a51-a223-b89ec128686a" name="Default Changelist" comment="Ajout de trucs pour register (p'tre ça marche pas)" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -104,7 +94,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/espace.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="457">
-              <caret line="96" column="18" selection-start-line="96" selection-start-column="18" selection-end-line="96" selection-end-column="18" />
+              <caret line="96" column="13" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="82" />
             </state>
           </provider>
         </entry>
@@ -535,7 +525,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90228000" />
+    <option name="totallyTimeSpent" value="90487000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -550,7 +540,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.87942123" visible="true" weight="0.17803837" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.87942123" visible="true" weight="0.17803837" />
       <window_info id="Structure" order="1" sideWeight="0.12057878" side_tool="true" weight="0.015991472" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -563,7 +553,7 @@
       <window_info anchor="bottom" id="Debug" order="2" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49840087" visible="true" weight="0.26868907" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.49840087" visible="true" weight="0.26868907" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.5796316" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50159913" side_tool="true" weight="0.26868907" />
@@ -887,7 +877,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/espace.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="457">
-          <caret line="96" column="18" selection-start-line="96" selection-start-column="18" selection-end-line="96" selection-end-column="18" />
+          <caret line="96" column="13" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="82" />
         </state>
       </provider>
     </entry>

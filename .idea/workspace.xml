@@ -4,42 +4,9 @@
     <option name="showLibraryBeans" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52b5482d-9d9e-4a51-a223-b89ec128686a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/polytech/polynet/exceptions/NameTakenException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/polytech/polynet/objects/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/login.html" afterDir="false" />
+    <list default="true" id="52b5482d-9d9e-4a51-a223-b89ec128686a" name="Default Changelist" comment="BCP DE MODIFICATION DE TYPE : Ajout todolist, clean du code, ajout de l'inscription, structure du code etc etc.  MANQUE : FRONT END ! VERIFICATION DE LA BASE DE DONNEE ! TESTER LE TOUT !">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/polytech/polynet/api/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polytech/polynet/api/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/polytech/polynet/api/StoryController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/polytech/polynet/api/ToDoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polytech/polynet/api/ToDoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/polytech/polynet/business/Authority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polytech/polynet/business/Authority.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/polytech/polynet/business/Comment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/polytech/polynet/business/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polytech/polynet/business/LoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/polytech/polynet/business/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polytech/polynet/business/LoginServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/polytech/polynet/business/PublicationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polytech/polynet/business/PublicationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/polytech/polynet/business/PublicationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polytech/polynet/business/PublicationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/polytech/polynet/business/ToDoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polytech/polynet/business/ToDoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/polytech/polynet/business/ToDoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polytech/polynet/business/ToDoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/polytech/polynet/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polytech/polynet/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/polytech/polynet/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polytech/polynet/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/polytech/polynet/objects/Story.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/polytech/polynet/repository/JpaLoginRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polytech/polynet/repository/JpaUserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/polytech/polynet/repository/JpaStoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polytech/polynet/repository/JpaToDoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/polytech/polynet/repository/LoginRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polytech/polynet/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/polytech/polynet/repository/StoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/polytech/polynet/repository/ToDoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polytech/polynet/api/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polytech/polynet/business/Authority.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polytech/polynet/business/Authority.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polytech/polynet/business/Comment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polytech/polynet/business/LoginService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polytech/polynet/business/LoginService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polytech/polynet/business/LoginServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polytech/polynet/business/LoginServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polytech/polynet/business/PublicationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polytech/polynet/business/PublicationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polytech/polynet/business/PublicationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polytech/polynet/business/PublicationServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polytech/polynet/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polytech/polynet/config/AppConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polytech/polynet/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/polytech/polynet/config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polytech/polynet/repository/JpaLoginRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polytech/polynet/repository/JpaStoryRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polytech/polynet/repository/LoginRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/polytech/polynet/repository/StoryRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/login.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -95,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/polytech/polynet/api/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/polytech/polynet/config/SecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="488">
-              <caret line="42" column="42" lean-forward="true" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+              <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,10 +85,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
+            <state relative-caret-position="393">
+              <caret line="127" column="44" lean-forward="true" selection-start-line="127" selection-start-column="44" selection-end-line="127" selection-end-column="44" />
               <folding>
-                <element signature="n#head#0;n#html#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -156,7 +122,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/espace.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="630">
-              <caret line="42" column="24" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+              <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -214,7 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/polytech/polynet/repository/StoryRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/polytech/polynet/repository/InMemoryStoryRepository.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/polytech/polynet/business/PublicationServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/index.js" />
@@ -264,6 +229,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/polytech/polynet/business/PublicationServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/polytech/polynet/business/PublicationService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/polytech/polynet/api/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/espace.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/login.html" />
       </list>
     </option>
@@ -528,7 +494,7 @@
       <workItem from="1558091429618" duration="8494000" />
       <workItem from="1559126907924" duration="701000" />
       <workItem from="1559296819887" duration="11719000" />
-      <workItem from="1559418204365" duration="5214000" />
+      <workItem from="1559418204365" duration="5576000" />
     </task>
     <task id="LOCAL-00001" summary="security init">
       <created>1558075152894</created>
@@ -579,7 +545,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559418376751</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="BCP DE MODIFICATION DE TYPE : Ajout todolist, clean du code, ajout de l'inscription, structure du code etc etc.  MANQUE : FRONT END ! VERIFICATION DE LA BASE DE DONNEE ! TESTER LE TOUT !">
+      <created>1559423609220</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1559423609220</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -615,7 +588,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97183000" />
+    <option name="totallyTimeSpent" value="97545000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -630,7 +603,7 @@
     <frame x="0" y="0" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.87942123" visible="true" weight="0.1782284" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.87942123" visible="true" weight="0.1782284" />
       <window_info id="Structure" order="1" sideWeight="0.12057878" side_tool="true" weight="0.015991472" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -639,11 +612,11 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4994664" weight="0.3286638" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" sideWeight="0.4994664" visible="true" weight="0.3286638" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.2672414" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.2672414" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4994664" weight="0.57866377" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053364" side_tool="true" weight="0.57866377" />
@@ -713,7 +686,8 @@
     <MESSAGE value="clean" />
     <MESSAGE value="Ajout de trucs pour register (p'tre ça marche pas)" />
     <MESSAGE value="merge" />
-    <option name="LAST_COMMIT_MESSAGE" value="merge" />
+    <MESSAGE value="BCP DE MODIFICATION DE TYPE : Ajout todolist, clean du code, ajout de l'inscription, structure du code etc etc.  MANQUE : FRONT END ! VERIFICATION DE LA BASE DE DONNEE ! TESTER LE TOUT !" />
+    <option name="LAST_COMMIT_MESSAGE" value="BCP DE MODIFICATION DE TYPE : Ajout todolist, clean du code, ajout de l'inscription, structure du code etc etc.  MANQUE : FRONT END ! VERIFICATION DE LA BASE DE DONNEE ! TESTER LE TOUT !" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -996,7 +970,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/espace.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
-          <caret line="42" column="24" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1013,7 +987,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/polytech/polynet/api/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1023,7 +997,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/polytech/polynet/config/SecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="488">
-          <caret line="42" column="42" lean-forward="true" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+          <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1040,12 +1014,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/espace.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
+        <state relative-caret-position="393">
+          <caret line="127" column="44" lean-forward="true" selection-start-line="127" selection-start-column="44" selection-end-line="127" selection-end-column="44" />
           <folding>
-            <element signature="n#head#0;n#html#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>

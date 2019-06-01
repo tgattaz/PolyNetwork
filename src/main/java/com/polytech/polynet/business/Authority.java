@@ -1,39 +1,35 @@
 package com.polytech.polynet.business;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
-//@Entity
-//@Table(name = "authorities")
+@Entity
+@Table(name = "authorities")
 public class Authority {
 
-    public Authority() {}
-
-    //@Id
-    //@OneToOne
-    //@JoinColumn(name="username")
-    private String username;
-
-    //@Column(name="authority")
-    private String authority;
+    @EmbeddedId
+    private AuthorityId authorityId;
 
     public Authority(String username, String authority) {
-        this.username = username;
-        this.authority = authority;
+        this.authorityId = new AuthorityId(username);
+        this.authorityId.setAuthority((authority));
     }
 
-    public String getUsername() {
-        return username;
-    }
+    @Embeddable
+    class AuthorityId implements Serializable {
+        @Column(name = "username")
+        private String username;
 
-    public void setUsername(String username) {
-        this.username = username;
-    }
+        @Column(name = "authority")
+        private String authority;
 
-    public String getAuthority() {
-        return authority;
-    }
+        AuthorityId(String username) {
+            this.username = username;
+        }
 
-    public void setAuthority(String authority) {
-        this.authority = authority;
+        void setAuthority(String authority) {
+            this.authority = authority;
+        }
+
     }
 }

@@ -24,17 +24,30 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        //super.configure(http);
         http.authorizeRequests()
+                //permission générale :
                 .mvcMatchers("/").permitAll()
+                .mvcMatchers("/js/**").permitAll()
+                .mvcMatchers("/login*").permitAll()
                 .mvcMatchers("/register.html").permitAll()
+                .mvcMatchers("/about","help").permitAll()
                 .anyRequest().authenticated()
-                .mvcMatchers("/espace.html").permitAll()
+                //uniquement sous connection :
+                .mvcMatchers("/admin/*").hasRole("ADMIN")
+
                 .and()
+                //page de connection :
                 .formLogin()
+                .loginPage("/login.html")
+                .defaultSuccessUrl("/feed.html").permitAll()
+                .loginProcessingUrl("/login")
+                .and()
+                //page de deconnection :
+                .logout()
+                .logoutUrl("/logout").permitAll()
+                .logoutSuccessUrl("/")
                 .and()
                 .csrf().disable();
 
     }
-
 }

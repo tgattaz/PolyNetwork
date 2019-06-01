@@ -1,18 +1,18 @@
 package com.polytech.polynet.business;
 
-import com.polytech.polynet.objects.Story;
-import com.polytech.polynet.repository.StoryRepository;
+
+import com.polytech.polynet.repository.ToDoRepository;
 
 import java.util.List;
 
 public class ToDoServiceImpl implements ToDoService {
-    private StoryRepository storyRepository;
+    private ToDoRepository toDoRepository;
 
-    public ToDoServiceImpl(StoryRepository storyRepository) {
-        this.storyRepository = storyRepository;
+    public ToDoServiceImpl(ToDoRepository toDoRepository) {
+        this.toDoRepository = toDoRepository;
     }
 
-    public List<Story> fetchAll() {
-        return storyRepository.findAll();
+    public List fetchAll() {
+        return toDoRepository.findAll();
     }
 }

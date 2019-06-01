@@ -1,21 +1,22 @@
 package com.polytech.polynet.business;
 
+import com.polytech.polynet.exceptions.NameTakenException;
 import com.polytech.polynet.objects.User;
-import com.polytech.polynet.repository.LoginRepository;
+import com.polytech.polynet.repository.UserRepository;
 
 public class LoginServiceImpl implements LoginService {
-    private LoginRepository loginRepository;
+    private UserRepository userRepository;
 
-    public LoginServiceImpl(LoginRepository loginRepository){
-       this.loginRepository = loginRepository;
+    public LoginServiceImpl(UserRepository userRepository){
+       this.userRepository = userRepository;
     }
 
-    public void register(User user1) {
-        loginRepository.register(user1);
+    public void register(User user1) throws NameTakenException{
+        userRepository.register(user1);
     }
 
     public void register_Authority(Authority authority) {
-        loginRepository.save_Authority(authority);
+        userRepository.save_Authority(authority);
     }
 
 }

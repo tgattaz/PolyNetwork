@@ -1,11 +1,15 @@
 package com.polytech.polynet.business;
 
-
-import com.polytech.polynet.objects.Story;
+import com.polytech.polynet.objects.Task;
 
 public interface PublicationService {
 
-    void share(Story story1);
+    void share(Task task);
 
-    void comment(Comment comment);
+    void delete_task(int id);
+
+    void done(int id);
+
+    void modif(int id, String s);
+
 }

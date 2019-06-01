@@ -1,21 +1,32 @@
 package com.polytech.polynet.business;
 
-import com.polytech.polynet.objects.Story;
-import com.polytech.polynet.repository.StoryRepository;
+import com.polytech.polynet.objects.Task;
+import com.polytech.polynet.repository.ToDoRepository;
 
 public class PublicationServiceImpl implements PublicationService {
 
-    private StoryRepository storyRepository;
+    private ToDoRepository toDoRepository;
 
-    public PublicationServiceImpl(StoryRepository storyRepository) {
-        this.storyRepository = storyRepository;
+    public PublicationServiceImpl(ToDoRepository toDoRepository) {
+        this.toDoRepository = toDoRepository;
     }
 
-    public void share(Story story1) {
-       storyRepository.save(story1);
+    public void share(Task task) {
+       toDoRepository.save(task);
     }
 
-    public void comment(Comment comment1) {
-        storyRepository.save_com(comment1);
+    public void delete_task(int id) {
+        toDoRepository.delete(id);
     }
+
+    public void done(int id) {
+        toDoRepository.done(id);
+    }
+
+    public void modif(int id, String s) {
+        toDoRepository.modif(id, s);
+    }
+
+
+
 }

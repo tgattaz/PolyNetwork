@@ -2,10 +2,10 @@ package com.polytech.polynet.config;
 
 import com.mysql.cj.jdbc.MysqlDataSource;
 import com.polytech.polynet.business.*;
-import com.polytech.polynet.repository.JpaLoginRepository;
-import com.polytech.polynet.repository.JpaStoryRepository;
-import com.polytech.polynet.repository.LoginRepository;
-import com.polytech.polynet.repository.StoryRepository;
+import com.polytech.polynet.repository.JpaUserRepository;
+import com.polytech.polynet.repository.JpaToDoRepository;
+import com.polytech.polynet.repository.UserRepository;
+import com.polytech.polynet.repository.ToDoRepository;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -15,13 +15,13 @@ import javax.sql.DataSource;
 public class AppConfig {
 
     @Bean
-    StoryRepository storyRepository() {
-        return new JpaStoryRepository();
+    ToDoRepository storyRepository() {
+        return new JpaToDoRepository();
     }
 
     @Bean
-    LoginRepository loginRepository() {
-        return new JpaLoginRepository();
+    UserRepository loginRepository() {
+        return new JpaUserRepository();
     }
 
     @Bean

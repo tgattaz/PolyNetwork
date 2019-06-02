@@ -1,14 +1,14 @@
 angular.module('TchikiRegister', []).controller('userController',function($scope,$http){
-    $scope.verif_password={}
+    $scope.verif_password={};
     $scope.create_user = function(){
         var user = {
-            username :$scope.username.text,
+            username : $scope.username.text,
             password : $scope.password.text
-        }
+        };
         console.log(user);
         document.getElementById("confirmation").textContent ="";
         document.getElementById("warning").textContent ="";
-        if($scope.password.text==$scope.verif_password.text){
+        if($scope.password.text === $scope.verif_password.text){
             $http({
                 method: 'POST',
                 url: '/register',

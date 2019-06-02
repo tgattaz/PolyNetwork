@@ -18,10 +18,10 @@
             padding-top: 50px;
         }
 
-        .starter-template {
+        /* .starter-template {
             padding: 40px 15px;
             text-align: center;
-        }
+        }*/
     </style>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -58,24 +58,47 @@
     <form role="form">
             <div class="form-group">
                 <div class="row">
-                    <div class="col-12 col-md-8"><input type="text" ng-model="data_to_add" class="form-control" name="" id="" placeholder="A quoi tu penses câlisse ?"></div>
-                    <div class="col-6 col-md-4"><button ng-click="add_story()" class="btn btn-primary">Partage au monde ta merde</button></div>
+                    <div class="col-12 col-md-8">
+                        <label for="new_task">Mets toi en valeurs, mais n'oublie pas tes valeurs : </label>
+                        <input class="form-control" id="new_task" name="" ng-model="new_task" placeholder="A quoi tu penses câlisse ?" type="text">
+                    </div>
+                    <div class="col-6 col-md-4"><button class="btn btn-primary" ng-click="create()">Partage au monde ta merde</button></div>
                 </div>
             </div>
     </form>
     <hr>
 
     <ul class="list-group" ng-repeat="x in stories | orderBy:'id':true">
+        <!--- ICI ---->
         <li class="list-group-item">
         <div class="row">
-            <div class="col-md-7"> AJOUTER ICI BOUTONS </div>
-            <div class="col-md-7">{{x.content}}</div>
-            <div class="col-md-4 ml-auto"><a id="label_com_{{$index}}" ng-click="see_com($index)">Mater les critiques obvious des rageux</a></div>
+            <div class="pull-left" id="date">
+                {{x.date | date:'dd MMMM yyyy'}}
+            </div>
+            <div class="checkbox mb-3">
+                <input type="checkbox" id="checkbox" ng-checked="x.done" ng-click="done(x.id)"/>
+                <label for="checkbox">
+                    {{x.content}}
+                </label>
+            </div>
+            <div class="pull-right action-buttons">
+                <button type="button" class="btn btn-info btn-circle btn-sm" data-toggle="collapse" data-target="#{{$index}}" aria-expanded="false" aria-controls="$index"><span class="glyphicon glyphicon-pencil" ></span></button>
+                <button type="button" class="btn btn-danger btn-circle btn-sm" ng-click="delete(x.id)"><i class="glyphicon glyphicon-trash"></i></button>
+            </div>
         </div>
         </li>
+        <div class="collapse" id="{{$index}}">
+            <li class="list-group-item" style="overflow: hidden;">
+                <form class="form-inline pull-right">
+                    <div class="form-group mx-sm-3 mb-2">
+                        <input type="text" class="form-control" placeholder="nouveau élèment" ng-model="update_text">
+                    </div>
+                    <button type="submit" class="btn btn-success btn-circle btn-sm" ng-click="update(x.id)" ><span class="glyphicon glyphicon-pencil"></span></button>
+                </form>
+            </li>
+        </div>
+        <!--- jusqu'ici -->
     </ul>
-
-
 
 </div><!-- /.container -->
 

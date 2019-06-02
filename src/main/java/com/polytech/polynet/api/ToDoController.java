@@ -38,9 +38,9 @@ public class ToDoController {
         return toDoService.fetchAll();
     }
 
-    @PostMapping("/modif/{id_task}")
-    public List modif(@PathVariable("id_task") int id, @RequestBody String string) {
-        publicationService.modif(id, string);
+    @PostMapping("/update/{id_task}")
+    public List update(@PathVariable("id_task") int id, @RequestBody String string) {
+        publicationService.update(id, string);
         return toDoService.fetchAll();
     }
 

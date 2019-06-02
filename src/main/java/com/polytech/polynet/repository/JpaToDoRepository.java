@@ -33,7 +33,7 @@ public class JpaToDoRepository implements ToDoRepository {
        return this.findAll();
     }
 
-    public List modif(int id, String s) {
+    public List update(int id, String s) {
         entityManager.find(Task.class, id).setContent(s);
         return this.findAll();
     }

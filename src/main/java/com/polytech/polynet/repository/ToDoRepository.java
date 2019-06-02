@@ -12,7 +12,7 @@ public interface ToDoRepository {
 
     List delete(int id);
 
-    List modif(int id, String s);
+    List update(int id, String s);
 
     List done(int id);
 }

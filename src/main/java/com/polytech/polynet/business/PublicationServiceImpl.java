@@ -23,8 +23,8 @@ public class PublicationServiceImpl implements PublicationService {
         toDoRepository.done(id);
     }
 
-    public void modif(int id, String s) {
-        toDoRepository.modif(id, s);
+    public void update(int id, String s) {
+        toDoRepository.update(id, s);
     }
 
 }

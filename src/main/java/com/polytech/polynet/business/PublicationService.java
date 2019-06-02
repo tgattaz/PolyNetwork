@@ -10,5 +10,5 @@ public interface PublicationService {
 
     void done(int id);
 
-    void modif(int id, String s);
+    void update(int id, String s);
 }

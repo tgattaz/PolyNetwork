@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52b5482d-9d9e-4a51-a223-b89ec128686a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/espace.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/espace.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -69,16 +69,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/espace.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+            <state relative-caret-position="480">
+              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -209,8 +209,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/polytech/polynet/objects/Task.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/polytech/polynet/objects/User.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/espace.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/espace.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/espace.js" />
       </list>
     </option>
   </component>
@@ -543,7 +543,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559494730117</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="zzzz">
+      <created>1559494825551</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1559494825551</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -579,7 +586,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102058000" />
+    <option name="totallyTimeSpent" value="102142000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -607,12 +614,12 @@
       <window_info anchor="bottom" id="Debug" order="2" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.2672414" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.4994664" visible="true" weight="0.2672414" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286638" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4994664" weight="0.57866377" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5010672" side_tool="true" visible="true" weight="0.3286638" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4994664" weight="0.22521552" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49893278" visible="true" weight="0.3286638" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053364" side_tool="true" visible="true" weight="0.2672414" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49893278" weight="0.22521552" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49893278" weight="0.3286638" />
       <window_info anchor="bottom" id="Spring" order="11" sideWeight="0.4994664" weight="0.3286638" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
@@ -684,7 +691,8 @@
     <MESSAGE value="changement front end" />
     <MESSAGE value="change espace" />
     <MESSAGE value="remove useless fonction javascript" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove useless fonction javascript" />
+    <MESSAGE value="zzzz" />
+    <option name="LAST_COMMIT_MESSAGE" value="zzzz" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -973,15 +981,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/espace.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/espace.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

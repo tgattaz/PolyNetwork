@@ -1,13 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="TchikiRegister">
 <head>
     <meta charset="UTF-8">
     <title>Polytechnique Tchikita</title>
-</head>
-<body>
-<!DOCTYPE html>
-<html lang="en">
-<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -52,7 +47,7 @@
     <![endif]-->
 </head>
 
-<body>
+<body ng-controller="userController">
 
 
 <div class="bg"></div>
@@ -82,8 +77,6 @@
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</body>
-</html>
 
 <div class="container" id="register">
 
@@ -119,7 +112,7 @@
 
 
                         <div class="col-md-7 offset-md-2" id="bouton"></div>
-                        <button type="submit" class="btn btn-danger btn-lg btn-block" ng-click="create_user()">
+                        <button class="btn btn-danger btn-lg btn-block" ng-click="create_user()">
                             Créer ton compte
                         </button>
                 </div>
@@ -129,34 +122,13 @@
     </div>
 </div>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+<script src="register.js"></script>
 </body>
 </html>
 
-<script>
-    angular.module('PolyTaskUser', []).controller('userController',function($scope,$http){
-        $scope.verif_password={}
-        $scope.create_user = function(){
-            var user = {
-                username :$scope.username.text,
-                password : $scope.password.text
-            }
-            if($scope.password.text==$scope.verif_password.text){
-                $http({
-                    method: 'POST',
-                    url: '/test_users',
-                    data :user
-                }).then(function successCallback(response) {
-                    window.location.href="feed.html"
-                }, function errorCallback(response) {
-                    alert(response.data.message)
-                });
-            }
-            else{
-                alert("Le champ Password et Password Confirmation sont différents")
-            }
-        }
-    });
-</script>
+
+
 
 
 

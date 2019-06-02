@@ -34,16 +34,17 @@ angular.module('PolyNet',[]).controller('mainController', function ($scope, $htt
             })
     };
 
-    $scope.update = function(id_task) {
+    $scope.update = function(id_task, text) {
         console.log(id_task);
-        console.log($scope.update_text);
-        $http.post('/update/' + id_task, $scope.update_text)
+        console.log(text);
+        $http.post('/update/' + id_task, text)
             .then(function success(response) {
                 console.log(response.data);
                 $scope.stories = response.data;
-                $scope.update_text = {};
+                $scope.update_text = "";
             },function (data) {
-                console.log('Error: ' + data);
+                console.log('Error: ');
+                console.log(data);
             })
     };
 

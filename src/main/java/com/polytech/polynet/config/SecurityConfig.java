@@ -29,6 +29,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .mvcMatchers("/js/**").permitAll()
                 .mvcMatchers("/login*").permitAll()
                 .mvcMatchers("/register.html").permitAll()
+                .mvcMatchers("/register.js").permitAll()
+                .mvcMatchers("/register").permitAll()
                 .mvcMatchers("/about","help").permitAll()
                 .anyRequest().authenticated()
                 //uniquement sous connection :

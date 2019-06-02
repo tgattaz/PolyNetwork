@@ -50,6 +50,7 @@ angular.module('PolyNet',[]).controller('mainController', function ($scope, $htt
     $scope.done = function(id_task) {
         $http.post('/done', id_task)
             .then(function success(response) {
+
                 $scope.stories = response.data;
             },function (data) {
                 console.log('Error: ' + data);

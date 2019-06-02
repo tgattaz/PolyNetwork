@@ -59,48 +59,39 @@
             <div class="form-group">
                 <div class="row">
                     <div class="col-12 col-md-8">
-                        <label for="new_task">Mets toi en valeurs, mais n'oublie pas tes valeurs : </label>
-                        <input class="form-control" id="new_task" name="" ng-model="new_task" placeholder="A quoi tu penses câlisse ?" type="text">
+                        <input class="form-control" id="new_task" name="" ng-model="new_task" placeholder="Ils parlent , ils parlent , ils parlent , mais dis moi ils connaissent quoi ?" type="text">
                     </div>
-                    <div class="col-6 col-md-4"><button class="btn btn-primary" ng-click="create()">Partage au monde ta merde</button></div>
+                    <div class="col-6 col-md-4"><button class="btn btn-primary" ng-click="create()"> Mets toi en valeur, mais n’oublie pas tes valeurs </button></div>
                 </div>
             </div>
     </form>
     <hr>
 
-    <ul class="list-group" ng-repeat="x in stories | orderBy:'id':true">
-        <!--- ICI ---->
-        <li class="list-group-item">
-        <div class="row">
-            <div class="pull-left" id="date">
-                {{x.date | date:'dd MMMM yyyy'}}
-            </div>
-            <div class="checkbox mb-3">
-                <input type="checkbox" id="checkbox" ng-checked="x.done" ng-click="done(x.id)"/>
-                <label for="checkbox">
-                    {{x.content}}
+    <div class="row" ng-repeat="x in stories | orderBy:'id':true" style="border:1px solid #7b68ee;">
+        <br>
+            <div class="col-sm-10">
+                <input id="checkbox" ng-checked="x.done" ng-click="done(x.id)" type="checkbox"/>
+                <label for="checkbox" ng-style="x.done && { 'text-decoration' : 'line-through' }">
+                    &nbsp {{x.date | date:'dd/MM/yy'}} - {{x.content}}
                 </label>
+                <div class="collapse" id="{{$index}}">
+                    <hr>
+                    <form class="form-inline pull-left">
+                        <label>
+                            &nbsp&nbsp&nbsp <input class="form-control" ng-model="update_text" placeholder="nouveau élèment" type="text">
+                            &nbsp <button class="btn btn-success btn-circle btn-sm" ng-click="update(x.id)" type="submit" ><span class="glyphicon glyphicon-pencil"></span></button>
+                        </label>
+                    </form>
+                </div>
             </div>
-            <div class="pull-right action-buttons">
-                <button type="button" class="btn btn-info btn-circle btn-sm" data-toggle="collapse" data-target="#{{$index}}" aria-expanded="false" aria-controls="$index"><span class="glyphicon glyphicon-pencil" ></span></button>
-                <button type="button" class="btn btn-danger btn-circle btn-sm" ng-click="delete(x.id)"><i class="glyphicon glyphicon-trash"></i></button>
+            <div class="col-sm-2">
+                <button aria-controls="$index" aria-expanded="false" class="btn btn-info btn-circle btn-sm" data-target="#{{$index}}" data-toggle="collapse" type="button"><span class="glyphicon glyphicon-pencil" ></span></button>
+                <button class="btn btn-danger btn-circle btn-sm" ng-click="delete(x.id)" type="button"><i class="glyphicon glyphicon-trash"></i></button>
             </div>
-        </div>
-        </li>
-        <div class="collapse" id="{{$index}}">
-            <li class="list-group-item" style="overflow: hidden;">
-                <form class="form-inline pull-right">
-                    <div class="form-group mx-sm-3 mb-2">
-                        <input type="text" class="form-control" placeholder="nouveau élèment" ng-model="update_text">
-                    </div>
-                    <button type="submit" class="btn btn-success btn-circle btn-sm" ng-click="update(x.id)" ><span class="glyphicon glyphicon-pencil"></span></button>
-                </form>
-            </li>
-        </div>
-        <!--- jusqu'ici -->
-    </ul>
+        <br><br>
+    </div>
 
-</div><!-- /.container -->
+
 
 <!-- Bootstrap core JavaScript
 ================================================== -->

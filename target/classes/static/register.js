@@ -6,14 +6,14 @@ angular.module('TchikiRegister', []).controller('userController',function($scope
             password : $scope.password.text
         };
         console.log(user);
-        document.getElementById("confirmation").textContent ="";
-        document.getElementById("warning").textContent ="";
+        document.getElementById("confirmation").textContent = "";
+        document.getElementById("warning").textContent = "";
         if($scope.password.text === $scope.verif_password.text){
             $http({
                 method: 'POST',
                 url: '/register',
                 data :user
-            }).then(function successCallback(response) {
+            }).then(function successCallback() {
                 document.getElementById("confirmation").textContent = "Confirmation de la création du compte, wesh alors !";
                 setTimeout(function(){
                     window.location.replace('/');

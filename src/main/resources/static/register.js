@@ -6,19 +6,24 @@ angular.module('TchikiRegister', []).controller('userController',function($scope
             password : $scope.password.text
         };
         console.log(user);
+        document.getElementById("confirmation").textContent = "";
+        document.getElementById("warning").textContent = "";
         if($scope.password.text === $scope.verif_password.text){
             $http({
                 method: 'POST',
                 url: '/register',
                 data :user
             }).then(function successCallback() {
-                window.location.href="/"
+                document.getElementById("confirmation").textContent = "Confirmation de la création du compte, wesh alors !";
+                setTimeout(function(){
+                    window.location.replace('/');
+                }, 5000);
             }, function errorCallback(response) {
-                alert(response.data.message)
+                document.getElementById("warning").textContent = response.data.message;
             });
         }
-        else {
-            alert("Vos deux mots de passes sont différents, veuillez vérifier vos champs")
+        else{
+            document.getElementById("warning").textContent = "Vos deux mots de passes sont différents, veuillez vérifier vos champs";
         }
 
     }

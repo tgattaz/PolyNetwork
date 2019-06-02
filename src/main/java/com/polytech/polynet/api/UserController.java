@@ -25,5 +25,4 @@ public class UserController {
         loginService.register_Authority(authority);
     }
 
-
 }

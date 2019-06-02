@@ -27,6 +27,4 @@ public class PublicationServiceImpl implements PublicationService {
         toDoRepository.modif(id, s);
     }
 
-
-
 }

@@ -15,4 +15,5 @@ public class ToDoServiceImpl implements ToDoService {
     public List fetchAll() {
         return toDoRepository.findAll();
     }
+
 }

@@ -18,5 +18,4 @@ public class LoginServiceImpl implements LoginService {
     public void register_Authority(Authority authority) {
         userRepository.save_Authority(authority);
     }
-
 }

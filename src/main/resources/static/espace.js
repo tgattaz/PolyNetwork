@@ -31,6 +31,5 @@ angular.module('PolyNet',[]).controller('mainController', function ($scope, $htt
             document.getElementById('commentaires_'+id).style.display = "none";
         }
 
-
     };
 });

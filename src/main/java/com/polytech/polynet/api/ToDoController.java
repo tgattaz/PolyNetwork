@@ -49,5 +49,4 @@ public class ToDoController {
         publicationService.done(id);
         return toDoService.fetchAll();
     }
-
 }

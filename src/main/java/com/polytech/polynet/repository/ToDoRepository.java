@@ -15,5 +15,4 @@ public interface ToDoRepository {
     List modif(int id, String s);
 
     List done(int id);
-
 }

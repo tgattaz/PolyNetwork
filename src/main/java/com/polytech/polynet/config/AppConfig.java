@@ -38,7 +38,7 @@ public class AppConfig {
     ToDoService toDoService() { return new ToDoServiceImpl((storyRepository())); }
 
     @Bean
-    PublicationService publicationService(){
+    PublicationService publicationService() {
         return new PublicationServiceImpl(storyRepository());
     }
 

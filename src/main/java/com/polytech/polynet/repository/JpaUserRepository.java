@@ -26,5 +26,4 @@ public class JpaUserRepository implements UserRepository {
     public void save_Authority(Authority authority) {
         entityManager.persist(authority);
     }
-
 }

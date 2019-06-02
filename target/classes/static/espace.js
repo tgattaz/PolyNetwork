@@ -2,8 +2,9 @@ angular.module('PolyNet',[]).controller('mainController', function ($scope, $htt
 
     $scope.comment = {};
 
-    $http.get('/feed').then(function (response) {
+    $http.get('/liste').then(function callBack(response) {
         $scope.stories = response.data;
+        console.log(response);
     })
 
     $scope.add_story = function () {

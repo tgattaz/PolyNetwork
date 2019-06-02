@@ -2,8 +2,9 @@ angular.module('PolyNet',[]).controller('mainController', function ($scope, $htt
 
     $scope.comment = {};
 
-    $http.get('/feed').then(function (response) {
+    $http.get('/liste').then(function callBack(response) {
         $scope.stories = response.data;
+        console.log(response);
     })
 
     $scope.add_story = function () {
@@ -11,7 +12,7 @@ angular.module('PolyNet',[]).controller('mainController', function ($scope, $htt
         $http.post('/story', $scope.data_to_add)
             .then(function () {
                 $scope.data_to_add='';
-                $http.get('/feed').then(function (response) {
+                $http.get('/liste').then(function (response) {
                     $scope.stories = response.data;
                 })
             },function (data) {
@@ -28,7 +29,7 @@ angular.module('PolyNet',[]).controller('mainController', function ($scope, $htt
         $http.post('/comment', $scope.comment)
             .then(function () {
                 $scope.comment_to_add='';
-                $http.get('/feed').then(function (response) {
+                $http.get('/liste').then(function (response) {
                     $scope.stories = response.data;
                 })
 

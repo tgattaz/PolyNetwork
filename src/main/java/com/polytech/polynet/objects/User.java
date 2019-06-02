@@ -1,6 +1,5 @@
 package com.polytech.polynet.objects;
 
-
 import javax.persistence.*;
 
 @Entity

@@ -27,6 +27,7 @@ public class Task {
         this.content = content;
         this.done = false;
         this.username = username;
+        this.date = new Date();
     }
 
     public Task(String content) {

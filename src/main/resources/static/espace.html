@@ -69,19 +69,10 @@
     <ul class="list-group" ng-repeat="x in stories | orderBy:'id':true">
         <li class="list-group-item">
         <div class="row">
+            <div class="col-md-7"> AJOUTER ICI BOUTONS </div>
             <div class="col-md-7">{{x.content}}</div>
             <div class="col-md-4 ml-auto"><a id="label_com_{{$index}}" ng-click="see_com($index)">Mater les critiques obvious des rageux</a></div>
         </div>
-        </li>
-        <li class="list-group-item" id="commentaires_{{$index}}" style="display:none;">
-            <hr>
-            <ul class="list-group" ng-repeat="commentaire in x.commentaires | orderBy:'id':true">
-                <li class="list-group-item">{{commentaire.content}}</li>
-            </ul>
-            <div class="row">
-                <div class="col-12 col-md-8"><input type="text" ng-model="comment_to_add" class="form-control" name="" id="" placeholder="Quel commentaire inutile aujourd'hui ?"></div>
-                <div class="col-6 col-md-4"><button ng-click="add_comment(x.identifiant,comment_to_add)" class="btn btn-primary">Ajoute ta merde</button></div>
-            </div>
         </li>
     </ul>
 

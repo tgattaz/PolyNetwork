@@ -4,9 +4,8 @@
     <option name="showLibraryBeans" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52b5482d-9d9e-4a51-a223-b89ec128686a" name="Default Changelist" comment="remove useless fonction javascript">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/espace.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/espace.js" afterDir="false" />
+    <list default="true" id="52b5482d-9d9e-4a51-a223-b89ec128686a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -70,13 +69,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/espace.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="34" column="3" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+            <state relative-caret-position="438">
+              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -193,7 +197,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/polytech/polynet/repository/JpaUserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/polytech/polynet/business/ToDoServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/polytech/polynet/business/ToDoService.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/polytech/polynet/api/ToDoController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/polytech/polynet/business/Authority.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/polytech/polynet/business/LoginServiceImpl.java" />
@@ -207,6 +210,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/polytech/polynet/objects/User.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/espace.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/espace.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -255,59 +259,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PolyNetwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PolyNetwork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="polynet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PolyNetwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PolyNetwork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="polynet" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PolyNetwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PolyNetwork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="polynet" type="462c0819:PsiDirectoryNode" />
-              <item name="business" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PolyNetwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PolyNetwork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="polynet" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PolyNetwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PolyNetwork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="polynet" type="462c0819:PsiDirectoryNode" />
-              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PolyNetwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PolyNetwork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="polynet" type="462c0819:PsiDirectoryNode" />
-              <item name="objects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PolyNetwork" type="b2602c69:ProjectViewProjectNode" />
@@ -585,7 +536,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559481900653</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="remove useless fonction javascript">
+      <created>1559494730117</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1559494730117</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -621,7 +579,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101939000" />
+    <option name="totallyTimeSpent" value="102058000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -636,7 +594,7 @@
     <frame x="0" y="0" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.87942123" visible="true" weight="0.14514408" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.87942123" visible="true" weight="0.14514408" />
       <window_info id="Structure" order="1" sideWeight="0.12057878" side_tool="true" weight="0.015991472" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -652,9 +610,9 @@
       <window_info anchor="bottom" id="Run" order="5" weight="0.2672414" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286638" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4994664" weight="0.57866377" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053364" side_tool="true" weight="0.57866377" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5010672" side_tool="true" visible="true" weight="0.3286638" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4994664" weight="0.22521552" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" sideWeight="0.4994664" visible="true" weight="0.3286638" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49893278" visible="true" weight="0.3286638" />
       <window_info anchor="bottom" id="Spring" order="11" sideWeight="0.4994664" weight="0.3286638" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
@@ -724,6 +682,7 @@
     <MESSAGE value="add gitignore" />
     <MESSAGE value="affichage de la liste des tâches qui marche *inserez musique de la victoire*" />
     <MESSAGE value="changement front end" />
+    <MESSAGE value="change espace" />
     <MESSAGE value="remove useless fonction javascript" />
     <option name="LAST_COMMIT_MESSAGE" value="remove useless fonction javascript" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -887,13 +846,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/espace.html" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/register.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2055">
@@ -1023,10 +975,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/espace.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="34" column="3" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+        <state relative-caret-position="438">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
